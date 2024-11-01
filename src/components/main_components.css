@@ -1,0 +1,217 @@
+.main_container {
+    display: flex;
+    height: 130vh;
+  }
+  .visible {
+      margin-top: 50px;
+      position: fixed;
+      right: 70px;
+      top: 20px; 
+      width: 20%;
+      background-color: #1d232d;
+      border-radius: 6px;
+  }
+  h4{
+      margin-left: 12px;
+      color: white;
+      opacity: 0.5;
+      font-size: 20px;
+  }
+  .side_bar {
+    justify-content: center;
+    width: 20%;
+    background-color: #1d232d;
+  }
+  .side_bar img {
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .State_conding {
+    border-radius: 12px;
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 10vh;
+    border: greenyellow solid 2px;
+  }
+  .fahome_icon{
+      font-size: 21px;
+      color: white;
+      opacity: 0.5;
+  }
+  #Home_heading{
+    font-size: 21px;
+  }
+  
+  .home_icon {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  h1 {
+    color: white;
+    font-weight: 600;
+    opacity: 0.4;
+  }
+  .main_content {
+    width: 80%;
+    background-color: rgb(18, 18, 18);
+  }
+  .input_search {
+    align-items: center;
+    gap: 12px;
+    display: flex;
+    margin: 12px auto;
+    height: 8vh;
+    width: 95%;
+  }
+  .images_container {
+    margin-top: 30px;
+    opacity: 0.5;
+    margin-left: 27px;
+  }
+  
+  .input_box,
+  .button_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #1d232d;
+    border-radius: 5px;
+  }
+  
+  .input_box {
+    width: 90%;
+    background-color: #1d232d;
+  }
+  
+  .button_box {
+    width: 5%;
+  }
+  
+  input {
+    width: 90%;
+    height: 86%;
+    border: none;
+    background-color: #1d232d;
+    color: white;
+    padding: 0 10px;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .form_container {
+    display: flex;
+    margin-top: 12%;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  form {
+    background-color: #1d232d;
+    padding: 20px;
+    border-radius: 8px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form label {
+    color: white;
+  }
+  
+  form input[type="text"] {
+    width: 95%;
+    background-color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #18212f;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  form p {
+    color: white;
+    text-align: center;
+  }
+  .Sign_up {
+    background-color: green;
+    height: vh;
+  }
+  .google-signin-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .google-logo {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .github-signin-btn {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .github-logo {
+    color: white;
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .login {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+  }
+  .Login_here {
+    color: green;
+    font-weight: 600;
+  }
+  .Search_input_icon{
+      font-size: 30px;
+      color: white;
+      opacity: 0.5;
+  }
+  
